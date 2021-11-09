@@ -112,7 +112,7 @@ head(LEM)
 ### Cómo crear subconjuntos con filter
 
 ```{r filt, echo=TRUE, eval = FALSE}
-lem <- filter(LEM, rate <= 0.5)
+lem <- filter(LEM, rate <= 1)
 ```
 
 ### Cómo seleccionar columnas con select
