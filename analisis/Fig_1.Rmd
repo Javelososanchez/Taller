@@ -123,7 +123,7 @@ lemplot <- select(LEM, MS, TOC, TIC,TN,BioSi,"TOC/TN")
 filter(lemplot, TOC/TN <= 10)
 
 ```
-
+>
 ### El pipe: %\>%
 
 Con el paquete `"dplyr"`, podemos realizar una serie de operaciones, por ejemplo select y entonces filter, enviando los resultados de una función a otra usando lo que se llama el pipe operator: %\>%. Algunos detalles se incluyen a continuación. En `"dplyr"`, podemos escribir código que se parece más a una descripción de lo que queremos hacer sin objetos intermedios:
